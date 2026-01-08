@@ -35,7 +35,7 @@ const Services = () => {
                     gap: '2rem'
                 }}>
                     {services.map((service, index) => (
-                        <div key={index} className="glass-card" style={{
+                        <div key={index} className="glass-card" data-aos="fade-up" data-aos-delay={index * 100} style={{
                             textAlign: 'center',
                             backgroundColor: 'var(--color-white)',
                             padding: '0',

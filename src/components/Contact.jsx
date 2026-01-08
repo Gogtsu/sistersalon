@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section id="contact" className="section-padding" style={{ backgroundColor: 'var(--color-nude)', color: 'var(--color-text)' }}>
             <div className="container">
-                <div className="glass-card" style={{
+                <div className="glass-card" data-aos="fade-up" style={{
                     backgroundColor: 'rgba(255, 255, 255, 0.8)',
                     maxWidth: '800px',
                     margin: '0 auto',

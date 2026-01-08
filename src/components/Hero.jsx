@@ -14,7 +14,7 @@ const Hero = () => {
             color: 'white',
             padding: '0 20px'
         }}>
-            <div className="hero-content glass-card" style={{
+            <div className="hero-content glass-card" data-aos="fade-up" style={{
                 backgroundColor: 'rgba(255, 255, 255, 0.2)',
                 padding: '3rem',
                 maxWidth: '800px',

@@ -19,7 +19,7 @@ const Gallery = () => {
                     gap: '1.5rem'
                 }}>
                     {images.map((img, index) => (
-                        <div key={index} style={{
+                        <div key={index} data-aos="zoom-in" data-aos-delay={index * 100} style={{
                             borderRadius: '15px',
                             overflow: 'hidden',
                             height: '300px',

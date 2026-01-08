@@ -9,7 +9,7 @@ const About = () => {
                 gap: '4rem',
                 flexWrap: 'wrap'
             }}>
-                <div style={{ flex: '1', minWidth: '300px' }}>
+                <div style={{ flex: '1', minWidth: '300px' }} data-aos="fade-right">
                     <div style={{ position: 'relative' }}>
                         <img
                             src={`${import.meta.env.BASE_URL}assets/about.png`}
@@ -34,7 +34,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div style={{ flex: '1', minWidth: '300px' }}>
+                <div style={{ flex: '1', minWidth: '300px' }} data-aos="fade-left">
                     <h2 style={{ fontSize: '3rem', marginBottom: '1.5rem', color: 'var(--color-text)' }}>Despre Noi</h2>
                     <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem', color: '#7a7a7a' }}>
                         „La Sister Salon, fiecare clientă este tratată ca o soră. Ne pasă, ascultăm și avem grijă de tine.”
