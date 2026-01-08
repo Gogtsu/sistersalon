@@ -2,9 +2,9 @@ import React from 'react';
 
 const Gallery = () => {
     const images = [
-        `${import.meta.env.BASE_URL}assets/gallery-1.png`,
-        `${import.meta.env.BASE_URL}assets/gallery-2.png`,
-        `${import.meta.env.BASE_URL}assets/gallery-3.png`
+        `${import.meta.env.BASE_URL}assets/gallery1.jpg`,
+        `${import.meta.env.BASE_URL}assets/gallery2.jpg`,
+        `${import.meta.env.BASE_URL}assets/gallery3.jpg`
     ];
 
     return (

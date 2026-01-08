@@ -16,7 +16,7 @@ const Contact = () => {
                     <div style={{ display: 'grid', gap: '2rem', marginBottom: '3rem' }}>
                         <div>
                             <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Adresă</h3>
-                            <p>Strada Primăverii nr. 15, București</p>
+                            <p>Sos. Oltenitei nr.131A, et.1, Bucharest, Romania, 041319</p>
                         </div>
 
                         <div>
@@ -28,9 +28,22 @@ const Contact = () => {
 
                         <div>
                             <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>Contact</h3>
-                            <p>Tel: 0722 123 456</p>
+                            <p>Tel / WhatsApp: 0732 233 034</p>
                             <p>Email: hello@sistersalon.ro</p>
                         </div>
+                    </div>
+
+                    <div style={{ marginBottom: '3rem', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 5px 15px rgba(0,0,0,0.1)' }}>
+                        <iframe
+                            width="100%"
+                            height="400"
+                            frameBorder="0"
+                            scrolling="no"
+                            marginHeight="0"
+                            marginWidth="0"
+                            src="https://maps.google.com/maps?q=Sos.%20Oltenitei%20nr.131A%2C%20et.1%2C%20Bucharest%2C%20Romania%2C%20041319&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            style={{ display: 'block' }}
+                        ></iframe>
                     </div>
 
                     <button className="btn btn-primary" style={{ fontSize: '1.2rem', padding: '15px 40px' }}>

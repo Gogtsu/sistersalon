@@ -5,22 +5,22 @@ const Services = () => {
         {
             title: "Coafor & Hairstyling",
             description: "Tunsori personalizate și styling care îți pune în valoare trăsăturile naturale.",
-            image: `${import.meta.env.BASE_URL}assets/service-haircut.png`
+            image: `${import.meta.env.BASE_URL}assets/par.jpg`
         },
         {
             title: "Vopsit Păr",
             description: "Culori vibrante și tehnici moderne (Balayage, Airtouch) pentru un look proaspăt.",
-            image: `${import.meta.env.BASE_URL}assets/service-color.png`
+            image: `${import.meta.env.BASE_URL}assets/vopsit.jpg`
         },
         {
             title: "Manichiură & Pedichiură",
             description: "Îngrijire completă pentru mâini și picioare, într-un mediu perfect igienic.",
-            image: `${import.meta.env.BASE_URL}assets/service-nails.png`
+            image: `${import.meta.env.BASE_URL}assets/unghii.jpg`
         },
         {
             title: "Tratamente de Îngrijire",
             description: "Ritualuri de relaxare și hidratare pentru păr sănătos și strălucitor.",
-            image: `${import.meta.env.BASE_URL}assets/service-treatment.png`
+            image: `${import.meta.env.BASE_URL}assets/trat.jpg`
         }
     ];
 
